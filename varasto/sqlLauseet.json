@@ -1,0 +1,18 @@
+{
+    "haeKaikki": [
+        "select asiakasnumero, etunimi, sukunimi, tyyppi, osoite from asiakas"
+    ],
+    "hae": [
+        "select asiakasnumero, etunimi, sukunimi, tyyppi, osoite from asiakas where asiakasnumero=?"
+    ],
+    "lisaa": [
+        "insert into asiakas (asiakasnumero, etunimi, sukunimi, tyyppi, osoite) values(?,?,?,?,?)"
+    ],
+    "paivita": [
+        "update asiakas set etunimi=?, sukunimi=?, tyyppi=?, osoite=? where asiakasnumero=?"
+    ],
+    "poista": [
+        "delete from asiakas where asiakasnumero=?"
+    ],
+    "perusavain": "asiakasnumero"
+}
