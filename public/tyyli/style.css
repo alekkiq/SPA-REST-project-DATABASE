@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    zoom: 150%;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+#valikko {
+    display: flex;
+    flex-direction: column;
+}
+
+#valikko button {
+    margin: 5px;
+    width: 12.5rem;
+    height: 3.5rem;
+    font-size: 16px;
+}
+
+
+#kentat {
+    display: block;
+    width: 20rem;
+    margin: auto;
+    text-align: left;
+}
+
+#kentat input {
+    float: right;
+}
+
+#tulosalue {
+    display: block;
+    width: 15rem;
+    margin: auto;
+    text-align: left;
+}
+
+#tulosalue .tieto {
+    float: right;
+}
+
+.virhe,
+.info {
+    text-align: center !important;
+}
+
+#tulosalue .selite {
+    text-align: left;
+}
+
+table,
+td,
+th {
+    background: #FFF;
+    margin: 5rem auto;
+    width: fit-content;
+    border: 1px dotted black;
+}
+
+td,
+th {
+    padding: 5px;
+}
+
+#napit button {
+    width: 6.5rem;
+    height: 2rem;
+}
+
+a button,
+#laheta {
+    width: 8rem;
+    height: 2rem;
+    margin: 10px;
+}
+
+input:read-only {
+    background: gray;
+}
